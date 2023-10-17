@@ -1,0 +1,516 @@
+body {
+    background-color: #1f2122;
+}
+
+.form {
+    background-color: #ec6090;
+    display: block;
+    padding: 1rem;
+    min-width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    margin-top: 100px;
+}
+
+.form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input,
+textarea .form button {
+    outline: none;
+    margin: 10px 0;
+}
+
+.input-container input,
+textarea {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.input-container span {
+    display: grid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    place-content: center;
+}
+
+.input-container span svg {
+    color: #9CA3AF;
+    width: 1rem;
+    height: 1rem;
+}
+
+.submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: black;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+.signup-link a {
+    text-decoration: underline;
+}
+
+.vertical {
+    background-color: rgba(90, 83, 83, 0.806);
+}
+
+.main {
+    height: 100vh;
+
+}
+
+input {
+    border: 1px solid black;
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    min-width: 320px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #27292a;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.081);
+}
+
+.date-time-container {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 0.5rem;
+}
+
+.date-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 1rem;
+    gap: 1rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(17, 24, 39, 1);
+}
+
+.separator {
+    width: 1px;
+    flex: 1 1 0%;
+    background-color: rgba(17, 24, 39, 0.1);
+}
+
+.content {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infos {
+    border-left: 1px solid rgba(17, 24, 39, 0.1);
+    padding: 1rem;
+}
+
+.title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18.72px;
+    color: rgba(17, 24, 39, 1);
+}
+
+.description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(55, 65, 81, 1);
+    max-width: 300px;
+}
+
+.action {
+    display: block;
+    width: 100%;
+    background-color: #dce378;
+
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(17, 24, 39, 1);
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: transparent;
+    border: 10px;
+}
+
+.action:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.action1 {
+    display: block;
+    width: 100%;
+    background-color: #e37878;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(17, 24, 39, 1);
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: transparent;
+    border: 10px;
+}
+
+.action1:hover {
+    background-color: white;
+
+}
+
+.CardList {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: end;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 150px;
+
+}
+
+
+
+.Create {
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+    font: 15px;
+
+}
+
+.creates {
+
+    border: 5px solid white;
+    margin-top: 100px;
+}
+
+.DeleteIcon {
+    height: 17px;
+}
+
+.Heading1 {
+    position: absolute;
+    text-align: left;
+    padding: 5px;
+    bottom: 120px;
+    top: 10px;
+}
+
+.Heading1>h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.Heading1>p {
+
+    color: gray;
+
+
+    letter-spacing: 2px;
+}
+
+.Reading {
+    float: left;
+    color: white;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+
+}
+
+.Reading>h3 {
+    font-size: 45px;
+    float: left;
+
+}
+
+.Reading>p {
+    color: gray;
+    width: 66%;
+    text-align: start;
+}
+
+
+.contain {
+    background: rgba(227, 120, 120, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 100px;
+    min-height: 50vh;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.contain>p {
+    text-align: start;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contain>h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Eye {
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+
+.Delete>h3 {
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* //extende */
+.container {
+    margin-top: 70px;
+    background-color: #27292a;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 23px;
+}
+
+.banner {
+    background-image: url(../Imgs/banner-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+}
+
+.box {
+    border-radius: 23px;
+    margin-top: 60px;
+
+}
+
+
+.box h6 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.box h4 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: white;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.box em {
+    font-style: normal;
+    color: #ec6090;
+}
+
+.item {
+    background-color: #27292a;
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+}
+
+.item img {
+
+    border-radius: 23px;
+    margin: 0 auto 0 auto;
+    width: 100%;
+
+}
+
+.temp {
+    margin: 30px auto 50px auto;
+}
+
+.item h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    color: white;
+}
+
+.item ul {
+    float: right;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.sec {
+    margin-top: 50px;
+    background-color: #1f2122;
+    border-radius: 23px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.heading-section h4 em {
+    color: #fff;
+    font-style: normal;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+
+.heading-section h4 {
+    color: #ec6090;
+    font-size: 34px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+
+
+/* Media queries */
+
+
+@media (max-width : 600px) {
+    .item {
+        background-color: #27292a;
+        border-radius: 23px;
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    .item img {
+
+        border-radius: 23px;
+        margin: 0 auto 0 auto;
+        width: 200px;
+        
+        display: block;
+
+    }
+
+   
+
+    .item h4 {
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        
+        
+    }
+
+
+    .sec {
+        margin-top: 50px;
+        background-color: #1f2122;
+        border-radius: 23px;
+        margin-bottom: 50px;
+        width: 90%;
+    }
+
+    .heading-section h4 em {
+        color: #fff;
+        font-style: normal;
+        text-decoration: underline;
+        margin-left: 10px;
+    }
+
+
+    .heading-section h4 {
+        color: #ec6090;
+        font-size: 34px;
+        text-decoration: none;
+        margin-bottom: 30px;
+    }
+
+
+}
+
